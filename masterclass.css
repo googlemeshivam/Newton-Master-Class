@@ -1,0 +1,248 @@
+/*navigation bar start*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background: -webkit-linear-gradient(right,#56d8e4,#9f01ea, #56d8e4,#9f01ea);
+    color: #fff;
+    padding: 20px;
+   
+    
+ 
+    
+}
+.nav-bar img{
+    height: 45px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
+.menu-right{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    font-family: sans-serif;
+
+
+    
+    
+}
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+
+}
+@media only screen and  (max-width: 700px){
+    span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+
+}
+#a{
+    color: #fff;
+}
+body{
+    padding: 0;
+    margin: 0;
+    }
+
+    /*navigation bar end*/
+
+
+
+
+
+
+
+
+
+    /*subject start*/
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    body{
+        background: rgb(27, 27, 27);
+    }
+    
+    
+    
+        .mentorcontainer{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+        .card{
+            background: white;
+            width: 270px;
+            
+            margin: 10px;
+            border-radius: 15px 15px 0 0;
+    
+        }
+        .card-image{
+            height: 170px;
+            margin-bottom: 15px;
+            background-size: cover;
+        }
+        .mentorpic11{
+            background-image: url(physics-41006.jpg);
+        }
+        .mentorpic12{
+            background-image: url(chemistry-8539752.jpg);
+    
+        }
+        .mentorpic13{
+            background-image: url(book3.jpg);
+    
+        }
+        .mentorpic14{
+            background-image: url(mathpic-5212320.jpg);
+    
+        }
+        .mentorpic15{
+            background-image: url(book5.jpg);
+    
+        }
+        .mentorpic16{
+            background-image: url(english-159711.jpg);
+    
+        }
+        .mentorpic17{
+            background-image: url(doctor3337.jpg);
+    
+        }
+        .mentorpic18{
+            background-image: url(engineer19.jpg);
+    
+        }
+        .mentorpic19{
+            background-image: url(dance-46158.jpg);
+    
+        }
+        .mentorpic20{
+            background-image: url(book2.jpg);
+    
+        }
+        .card h2{
+            padding: 10px;
+        }
+        .card p{
+            padding: 10px;
+        }
+        .card a{
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+            display: block;
+            text-align: center;
+            margin: 20px 50px;
+            text-decoration: none;
+        }
+        .card:hover {
+            background: -webkit-linear-gradient(right,#56d8e4,#9f01ea, #56d8e4,#9f01ea);
+            color: white;
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all ls ease;
+        }
+        /*subject end*/
+   
+    
+    
+    
+    
+    /*service start*/
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        padding: 0 8%;
+    }
+    .container h1{
+        text-align: center;
+        padding-top: 10%;
+        margin-bottom: 60px;
+        font-weight: 600;
+        position: relative;
+    }
+    .container h1::after{
+        content: '';
+        background: #303ef7;
+        width: 100px;
+        height: 5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translate(-50%);
+    
+    }
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-gap: 30px;
+    }
+    .service{
+        text-align: center;
+        padding: 25px 10px;
+        border-radius: 5px;
+        font-size: 14ox;
+        cursor: pointer;
+        background: transparent;
+        transition: transform 0.5s, background 0.5s;
+    
+    }
+    .service i{
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #303ef7;
+    
+    }
+    .service h2{
+        font-weight: 600;
+        margin-bottom: 8px;
+    
+    }
+    .service:hover{
+        background: #303ef7;
+        color: #fff;
+        transform: scale(1.05);
+    }
+    .service:hover i{
+        color: #fff;
+    }
+    #menu a{
+        text-decoration: none;
+        
+
+    }
+    /*service end*/
+
+   
